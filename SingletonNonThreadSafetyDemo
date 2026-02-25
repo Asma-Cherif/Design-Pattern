@@ -41,7 +41,7 @@ class NonThreadSafeSingleton {
     }
 }
 
-public class SingletonThreadSafetyDemo {
+public class SingletonNonThreadSafetyDemo {
     public static void main(String[] args) {
         // Create a set to store unique instances
         final Set<NonThreadSafeSingleton> instances = Collections.synchronizedSet(new HashSet<>());
